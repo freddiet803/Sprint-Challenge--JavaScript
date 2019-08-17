@@ -136,7 +136,7 @@ Log the result of your new array. */
 const contactInfo = graduates.map(
   contact => `${contact.first_name} - Email: ${contact.email}`
 );
-
+contactInfo.sort();
 console.log(contactInfo);
 console.log(' ');
 
@@ -225,6 +225,7 @@ zooAnimals.forEach(element => {
     `Name: ${element.animal_name} Scientific: ${element.scientific_name}`
   );
 });
+animalNames.sort();
 console.log(animalNames);
 console.log(' ');
 
@@ -235,6 +236,7 @@ The zoos need a list of all their animal's names (names only, not scientific) co
 */
 
 const lowerCase = zooAnimals.map(name => name.animal_name.toLowerCase());
+lowerCase.sort();
 console.log(lowerCase);
 console.log(' ');
 /* Request 3: .filter() 
