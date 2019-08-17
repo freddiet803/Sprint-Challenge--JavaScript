@@ -42,8 +42,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 	4. Describe the four rules of the 'this' keyword.
 	global - returns the window and the objects inside
+	
 	implicit - when an object to the left of . notation is being referenced
+	
 	new bind - this will refer to each new instance of a class or the object
+	
 	explicit - basically overwrites another object with the value of the passed object and this references the overwrite
 	
 5. Why do we need super() in an extended class?
