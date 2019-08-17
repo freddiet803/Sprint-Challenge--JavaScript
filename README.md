@@ -30,15 +30,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+	foreach performs a function on the elements of an array but does not return anything. map actually performs a function on 
+	each element and returns a new array
+
 2. What is the difference between a function and a method?
-
+	function can be an object. 
+	methods just perform some sort of action or function
+	
 3. What is closure?
+	closure is js ability to go outside of its scope to find the value of a referenced variable. it can never search in though.
 
-4. Describe the four rules of the 'this' keyword.
-
+	4. Describe the four rules of the 'this' keyword.
+	global - returns the window and the objects inside
+	implicit - when an object to the left of . notation is being referenced
+	new bind - this will refer to each new instance of a class or the object
+	explicit - basically overwrites another object with the value of the passed object and this references the overwrite
+	
 5. Why do we need super() in an extended class?
-
-## Project Set up
+	to instantiate an instance of a class with the inherited keys and value pairs. we pass the object to the super constructor
+	we want to make sure for example, dog is an instance of an animal object or class 
+	
+	## Project Set up
 
 Follow these steps to set up and work on your project:
 
